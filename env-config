@@ -1,0 +1,19 @@
+# .env.example
+# Variables de entorno para el backend del sistema de giras técnicas
+
+# Conexión a la base de datos
+DB_HOST=localhost
+DB_PORT=1433
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña_segura
+DB_NAME=SistemaGirasUP
+
+# Configuración del servidor
+PORT=3000
+
+# Seguridad
+JWT_SECRET=tu_clave_secreta_para_tokens
+TOKEN_EXPIRATION=1d
+
+# Opcional: configuración de logs
+LOG_LEVEL=info
